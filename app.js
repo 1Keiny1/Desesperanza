@@ -108,10 +108,6 @@ app.post('/agregarUsuario', validarNombre, (req, res) => {
 });
 
 
-app.listen(10000,()=>{
-    console.log('Servidor escuchando en el puerto 10000')
-})
-
 //fin consultar
 
 
