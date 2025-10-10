@@ -106,11 +106,20 @@ app.post('/agregarUsuario', validarNombre, (req, res) => {
         }
     );
 });
+<<<<<<< HEAD
+=======
 
 
 //fin consultar
+>>>>>>> ed63c33 (Subiendo)
 
 
+<<<<<<< HEAD
+//fin consultar
+
+
+=======
+>>>>>>> ed63c33 (Subiendo)
 app.get('/obtenerUsuario',(req,res)=>{
     con.query('select * from usuario', (err,respuesta, fields)=>{
         if(err)return console.log('ERROR: ', err);
@@ -379,6 +388,9 @@ app.post('/modificarUsuario', validarNombre, (req, res) => {
         }
     );
 });
+<<<<<<< HEAD
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Servidor en puerto ${PORT}`));
+=======
+>>>>>>> ed63c33 (Subiendo)
